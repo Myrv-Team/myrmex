@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "apps/server",
+    "apps/desktop/src-tauri",
+    "crates/myrmex-core",
+    "crates/myrmex-crypto",
+    "crates/myrmex-protocol",
+    "crates/myrmex-network",
+    "crates/myrmex-federation",
+    "crates/myrmex-storage",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"

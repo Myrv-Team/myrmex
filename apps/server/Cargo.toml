@@ -1,0 +1,8 @@
+[package]
+name = "myrmex-server"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Serveur Myrmex : API REST + WebSocket (Axum/Tokio)"
+
+[dependencies]

@@ -1,0 +1,8 @@
+[package]
+name = "myrmex-federation"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Fédération Myrmex : interconnexion de serveurs, bootstrap, Tor"
+
+[dependencies]

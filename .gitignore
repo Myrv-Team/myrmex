@@ -1,0 +1,34 @@
+# Rust / Cargo
+/target
+**/*.rs.bk
+Cargo.lock.orig
+
+# Node / npm / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Tauri
+apps/desktop/src-tauri/target/
+apps/desktop/src-tauri/gen/
+
+# Environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Éditeurs et OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

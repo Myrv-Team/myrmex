@@ -1,0 +1,8 @@
+[package]
+name = "myrmex-protocol"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Protocole Myrmex : identifiants, événements, erreurs, versioning, sync, E2EE, auth"
+
+[dependencies]

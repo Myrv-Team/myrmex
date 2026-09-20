@@ -1,0 +1,8 @@
+[package]
+name = "myrmex-network"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Réseau Myrmex : transport client-serveur et serveur-serveur (WebSocket, Tor)"
+
+[dependencies]

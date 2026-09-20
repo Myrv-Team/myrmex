@@ -1,0 +1,12 @@
+[package]
+name = "myrmex-desktop"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Client desktop Myrmex (Tauri v2) — placeholder géré par @Shoppixx"
+
+[lib]
+name = "myrmex_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[dependencies]
